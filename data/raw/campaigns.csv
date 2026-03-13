@@ -1,0 +1,11 @@
+campaign_id,campaign_name,channel,campaign_type,budget,start_date,end_date
+1,Email Campaign 1,Organic Search,Event,16270,2024-04-14,2024-05-15
+2,Organic Search Campaign 2,Webinar,Referral,22571,2025-09-10,2025-11-02
+3,Organic Search Campaign 3,Referral,Event,25599,2024-05-07,2024-07-14
+4,Referral Campaign 4,Paid Search,Digital,6501,2025-09-25,2025-11-30
+5,Organic Search Campaign 5,Paid Search,Digital,17455,2024-08-21,2024-10-17
+6,Webinar Campaign 6,LinkedIn Ads,Email,17130,2024-10-11,2024-12-28
+7,Webinar Campaign 7,LinkedIn Ads,Digital,24960,2024-12-29,2025-02-13
+8,Referral Campaign 8,Webinar,Email,10354,2025-10-12,2025-11-22
+9,LinkedIn Ads Campaign 9,Webinar,Email,27433,2025-04-18,2025-06-25
+10,Paid Search Campaign 10,Organic Search,Event,18145,2024-11-28,2024-12-25
