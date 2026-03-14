@@ -24,6 +24,8 @@ This project analyzes revenue performance through an executive-level Tableau das
 
 ## Tools Used
 - Tableau
+- Python (data generation and ETL scripts)
+- SQL (KPI analysis)
 - Structured CSV datasets
 - Business KPI analysis
 - Executive dashboard reporting
@@ -36,18 +38,18 @@ This project analyzes revenue performance through an executive-level Tableau das
 - Monthly revenue showed variability across the year, with a major spike in the final period.
 
 ## Project Files
-- `tableau_dashboard/dashboard/revenue_operations_executive_dashboard.twbx` — Tableau dashboard workbook
-- `tableau_dashboard/images/dashboard_preview.png` — exported dashboard image
-- `tableau_dashboard/data/monthly_revenue_metrics.csv` — monthly revenue data
-- `tableau_dashboard/data/revenue_by_region_metrics.csv` — regional revenue data
-- `tableau_dashboard/data/executive_kpi_metrics.csv` — top-level KPI values
-- `tableau_dashboard/data/conversion_rate_metrics.csv` — conversion KPI values
+- `dashboard/revenue_operations_executive_dashboard.twbx` — Tableau dashboard workbook
+- `images/dashboard_preview.png` — exported dashboard image
+- `data/monthly_revenue_metrics.csv` — monthly revenue data
+- `data/revenue_by_region_metrics.csv` — regional revenue data
+- `data/executive_kpi_metrics.csv` — top-level KPI values
+- `data/conversion_rate_metrics.csv` — conversion KPI values
 
 ## Purpose
 This project demonstrates the ability to build an executive dashboard for revenue performance monitoring using Tableau, KPI-based analysis, and business-focused visual storytelling.
 
 ## Dashboard Preview
-![Dashboard Preview](tableau_dashboard/images/dashboard_preview.png)
+![Dashboard Preview](images/dashboard_preview.png)
 
 ## Business Recommendations
 - Review the final-period revenue spike to identify repeatable growth drivers.
@@ -56,7 +58,7 @@ This project demonstrates the ability to build an executive dashboard for revenu
 - Use monthly revenue trends to support forecasting and performance planning.
 
 ## How to Open the Dashboard
-Open the file `tableau_dashboard/dashboard/revenue_operations_executive_dashboard.twbx` in Tableau Desktop.
+Open the file `dashboard/revenue_operations_executive_dashboard.twbx` in Tableau Desktop.
 
 ## Project Workflow
 CSV Data → KPI Validation → Tableau Dashboard Design → Executive Reporting → Business Insights
