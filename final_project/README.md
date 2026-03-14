@@ -48,3 +48,16 @@ This project demonstrates the ability to build an executive dashboard for revenu
 ## Dashboard Preview
 
 ![Dashboard Preview](dashboard_preview.png)
+
+## Key Insights
+- Revenue peaked in the final month of the period.
+- North region contributed the highest share of total revenue.
+- The 28.93% lead-to-customer conversion rate suggests room for funnel optimization.
+
+## How to Open the Dashboard
+Open the Tableau workbook file:
+
+Revenue_Operations_Executive_Dashboard.twbx
+
+## Project Workflow
+CSV Data → Tableau Analysis → Executive Dashboard
