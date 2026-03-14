@@ -14,6 +14,14 @@ CSV Metrics
 ↓  
 Tableau Executive Dashboard
 
+## Skills Demonstrated
+
+- Data analysis using SQL queries and KPI validation
+- Python scripting for synthetic data generation and pipeline automation
+- Business KPI design and metric interpretation
+- Dashboard development and executive reporting in Tableau
+- Data organization and analytics project structuring in GitHub
+
 ## Overview
 This project presents a revenue operations analytics pipeline that combines Python, SQL, and Tableau to analyze business KPIs, validate revenue metrics, and deliver an executive-level dashboard for performance monitoring and decision-making.
 
