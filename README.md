@@ -1,7 +1,9 @@
 # Revenue Operations Executive Dashboard
 
+An end-to-end analytics workflow using **Python, SQL, and Tableau** to analyze revenue KPIs, validate metrics, and present insights through an executive business dashboard.
+
 ## Overview
-This project analyzes revenue performance through an executive-level Tableau dashboard built from structured CSV datasets. It focuses on core business KPIs, monthly revenue trends, and regional revenue distribution to support performance monitoring and decision-making.
+This project presents a revenue operations analytics pipeline that combines Python, SQL, and Tableau to analyze business KPIs, validate revenue metrics, and deliver an executive-level dashboard for performance monitoring and decision-making.
 
 ## Business Questions Answered
 - How much total revenue was generated?
@@ -17,18 +19,25 @@ This project analyzes revenue performance through an executive-level Tableau das
 - **Average Order Value:** $4,704
 - **Lead-to-Customer Conversion Rate:** 28.93%
 
+## Tools Used
+- Python for data generation and pipeline support
+- SQL for KPI analysis, validation, and dashboard exports
+- Tableau for executive dashboard design and reporting
+- Structured CSV datasets for analysis inputs
+- Business KPI analysis for performance monitoring
+
+## Data Pipeline
+This project follows a simple analytics workflow:
+
+1. `generate_data.py` creates structured revenue datasets
+2. `load_to_sqlite.py` loads data into SQLite for query-based analysis
+3. SQL queries validate KPIs and prepare dashboard-ready outputs
+4. Tableau visualizes revenue performance in an executive dashboard
+
 ## Visualizations
 - Monthly Revenue Trend
 - Revenue by Region
 - Executive KPI summary cards
-
-## Tools Used
-- Tableau
-- Python (data generation and ETL scripts)
-- SQL (KPI analysis)
-- Structured CSV datasets
-- Business KPI analysis
-- Executive dashboard reporting
 
 ## Key Insights
 - Revenue reached **$10.35M** across **2,200 orders**.
@@ -44,11 +53,17 @@ This project analyzes revenue performance through an executive-level Tableau das
 - `data/revenue_by_region_metrics.csv` — regional revenue data
 - `data/executive_kpi_metrics.csv` — top-level KPI values
 - `data/conversion_rate_metrics.csv` — conversion KPI values
+- `sql/revenue_kpi_analysis.sql` — KPI validation and analysis queries
+- `sql/dashboard_exports.sql` — export queries for dashboard-ready outputs
+- `generate_data.py` — synthetic revenue dataset generator
+- `load_to_sqlite.py` — SQLite loading script
 
 ## Purpose
-This project demonstrates the ability to build an executive dashboard for revenue performance monitoring using Tableau, KPI-based analysis, and business-focused visual storytelling.
+This project demonstrates the ability to build a small end-to-end analytics workflow using Python, SQL, and Tableau to support executive revenue reporting and business insight generation.
 
-## Dashboard Preview
+## Executive Dashboard
+The Tableau dashboard provides a concise executive view of revenue performance, order volume, conversion efficiency, and regional contribution.
+
 ![Dashboard Preview](images/dashboard_preview.png)
 
 ## Business Recommendations
@@ -61,4 +76,4 @@ This project demonstrates the ability to build an executive dashboard for revenu
 Open the file `dashboard/revenue_operations_executive_dashboard.twbx` in Tableau Desktop.
 
 ## Project Workflow
-CSV Data → KPI Validation → Tableau Dashboard Design → Executive Reporting → Business Insights
+Python Data Generation → SQLite Loading → SQL KPI Validation → Tableau Dashboard Design → Executive Reporting
