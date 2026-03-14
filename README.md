@@ -4,14 +4,14 @@ An end-to-end analytics workflow using **Python, SQL, and Tableau** to analyze r
 
 ## Analytics Pipeline
 
-Python Data Generation
-        ↓
-SQLite Data Loading
-        ↓
-SQL KPI Analysis
-        ↓
-CSV Metrics
-        ↓
+Python Data Generation  
+↓  
+SQLite Data Loading  
+↓  
+SQL KPI Analysis  
+↓  
+CSV Metrics  
+↓  
 Tableau Executive Dashboard
 
 ## Overview
