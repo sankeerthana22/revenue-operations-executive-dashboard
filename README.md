@@ -78,6 +78,13 @@ This project follows a simple analytics workflow:
 - `generate_data.py` — synthetic revenue dataset generator
 - `load_to_sqlite.py` — SQLite loading script
 
+## How to Run This Project
+
+1. Run `generate_data.py` to create the synthetic revenue datasets
+2. Run `load_to_sqlite.py` to load the generated data into SQLite
+3. Use the SQL files in `sql/` to validate KPI calculations and prepare dashboard-ready outputs
+4. Open `dashboard/revenue_operations_executive_dashboard.twbx` in Tableau Desktop to explore the final dashboard
+
 ## Purpose
 This project demonstrates the ability to build a small end-to-end analytics workflow using Python, SQL, and Tableau to support executive revenue reporting and business insight generation.
 
