@@ -99,6 +99,10 @@ The Tableau dashboard provides a concise executive view of revenue performance, 
 - Improve funnel efficiency to increase the lead-to-customer conversion rate.
 - Use monthly revenue trends to support forecasting and performance planning.
 
+## Business Impact
+
+This dashboard helps revenue and operations teams monitor performance, identify regional strengths, track conversion efficiency, and support data-driven decision-making. It can be used to improve forecasting, optimize funnel performance, and highlight revenue trends that require leadership attention.
+
 ## How to Open the Dashboard
 Open the file `dashboard/revenue_operations_executive_dashboard.twbx` in Tableau Desktop.
 
