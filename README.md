@@ -2,6 +2,18 @@
 
 An end-to-end analytics workflow using **Python, SQL, and Tableau** to analyze revenue KPIs, validate metrics, and present insights through an executive business dashboard.
 
+## Analytics Pipeline
+
+Python Data Generation
+        ↓
+SQLite Data Loading
+        ↓
+SQL KPI Analysis
+        ↓
+CSV Metrics
+        ↓
+Tableau Executive Dashboard
+
 ## Overview
 This project presents a revenue operations analytics pipeline that combines Python, SQL, and Tableau to analyze business KPIs, validate revenue metrics, and deliver an executive-level dashboard for performance monitoring and decision-making.
 
